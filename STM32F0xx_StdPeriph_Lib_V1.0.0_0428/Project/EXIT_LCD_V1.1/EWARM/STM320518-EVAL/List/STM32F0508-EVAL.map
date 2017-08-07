@@ -1,0 +1,538 @@
+###############################################################################
+#
+# IAR ELF Linker V7.20.2.7424/W32 for ARM                 07/Aug/2017  14:56:59
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Exe\STM32F0508-EVAL.out
+#    Map file     =  
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\List\STM32F0508-EVAL.map
+#    Command line =  
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\APP_Core.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\APP_Main.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\APP_Uart.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\Cap.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\Common.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\DataType.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\HAL_Mcu.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\InitSys.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\LCD_Core.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\LCD_flash.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\LCD_lcdinit.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\LCD_touch.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\MyMisc.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\spi.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\startup_stm32f0xx.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_adc.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_cec.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_comp.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_crc.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_dac.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_dbgmcu.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_dma.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_exti.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_flash.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_gpio.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_i2c.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_iwdg.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_misc.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_pwr.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_rcc.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_rtc.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_spi.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_syscfg.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_tim.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_usart.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\stm32f0xx_wwdg.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\SysCheck.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\system_stm32f0xx.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\Uart.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\UartService.o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj\watchDog.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Exe\STM32F0508-EVAL.out
+#        --map
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\List\STM32F0508-EVAL.map
+#        --config
+#        D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\stm32f0xx_flash.icf
+#        --semihosting --entry __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xc0
+  .intvec            ro code  0x08000000    0xc0  startup_stm32f0xx.o [1]
+                            - 0x080000c0    0xc0
+
+"P1":                                     0x60f8
+  .text              ro code  0x080000c0  0x2c64  LCD_lcdinit.o [1]
+  .text              ro code  0x08002d24    0xa2  stm32f0xx_gpio.o [1]
+  .text              ro code  0x08002dc6    0x2a  zero_init3.o [4]
+  .text              ro code  0x08002df0    0x78  MyMisc.o [1]
+  .text              ro code  0x08002e68   0x18e  spi.o [1]
+  .text              ro code  0x08002ff6    0xe0  I32DivModFast.o [4]
+  .text              ro code  0x080030d6     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080030d8    0x38  stm32f0xx_iwdg.o [1]
+  .text              ro code  0x08003110   0x150  stm32f0xx_rcc.o [1]
+  .text              ro code  0x08003260    0xaa  stm32f0xx_spi.o [1]
+  .text              ro code  0x0800330a     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800330c    0xb4  stm32f0xx_dma.o [1]
+  .text              ro code  0x080033c0     0x2  IntDivZer.o [4]
+  .text              ro code  0x080033c2     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080033c4   0xf70  LCD_Core.o [1]
+  .text              ro code  0x08004334    0x68  SysCheck.o [1]
+  .text              ro code  0x0800439c    0x2c  LCD_flash.o [1]
+  .text              ro code  0x080043c8    0x70  Cap.o [1]
+  .text              ro code  0x08004438   0x146  stm32f0xx_tim.o [1]
+  .text              ro code  0x0800457e     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08004580   0x28c  LCD_touch.o [1]
+  .text              ro code  0x0800480c    0x54  stm32f0xx_misc.o [1]
+  .text              ro code  0x08004860   0x108  stm32f0xx_flash.o [1]
+  .rodata            const    0x08004968   0xd60  LCD_lcdinit.o [1]
+  .text              ro code  0x080056c8   0x1f4  APP_Uart.o [1]
+  .text              ro code  0x080058bc    0x34  ABImemset.o [4]
+  .text              ro code  0x080058f0    0x28  UartService.o [1]
+  .text              ro code  0x08005918   0x160  InitSys.o [1]
+  .text              ro code  0x08005a78    0x2c  stm32f0xx_syscfg.o [1]
+  .text              ro code  0x08005aa4    0x84  stm32f0xx_exti.o [1]
+  .text              ro code  0x08005b28    0xa4  Uart.o [1]
+  .text              ro code  0x08005bcc    0xf2  stm32f0xx_usart.o [1]
+  .text              ro code  0x08005cbe     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08005cc0   0x104  APP_Core.o [1]
+  .text              ro code  0x08005dc4    0xec  system_stm32f0xx.o [1]
+  .text              ro code  0x08005eb0    0xc6  HAL_Mcu.o [1]
+  .text              ro code  0x08005f76     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08005f78    0x68  APP_Main.o [1]
+  .text              ro code  0x08005fe0    0x28  watchDog.o [1]
+  .text              ro code  0x08006008    0x30  copy_init3.o [4]
+  .text              ro code  0x08006038    0x28  data_init.o [4]
+  .iar.init_table    const    0x08006060    0x24  - Linker created -
+  .text              ro code  0x08006084    0x1a  cmain.o [4]
+  .text              ro code  0x0800609e     0x4  low_level_init.o [3]
+  .text              ro code  0x080060a2     0x8  exit.o [3]
+  .text              ro code  0x080060aa     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060ac     0xa  cexit.o [4]
+  .text              ro code  0x080060b6     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060b8    0x14  exit.o [5]
+  .text              ro code  0x080060cc    0x10  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060dc     0xc  cstartup_M.o [4]
+  .text              ro code  0x080060e8     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060ea     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060ec     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060ee     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060f0     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060f2     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060f4     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060f6     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060f8     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060fa     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060fc     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080060fe     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08006100     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08006102     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08006104     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08006106     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08006108     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800610a     0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800610c     0x2  startup_stm32f0xx.o [1]
+  .rodata            const    0x0800610e     0x0  zero_init3.o [4]
+  .rodata            const    0x0800610e     0x0  copy_init3.o [4]
+  Initializer bytes  ro data  0x08006110    0xa8  <for P2 s0>
+                            - 0x080061b8  0x60f8
+
+"P2":                                      0x580
+  P2 s0                       0x20000000    0xa8  <Init block>
+    .data            inited   0x20000000    0x78  LCD_Core.o [1]
+    .data            inited   0x20000078    0x14  system_stm32f0xx.o [1]
+    .data            inited   0x2000008c    0x10  stm32f0xx_rcc.o [1]
+    .data            inited   0x2000009c     0x4  LCD_lcdinit.o [1]
+    .data            inited   0x200000a0     0x4  LCD_lcdinit.o [1]
+    .data            inited   0x200000a4     0x2  LCD_touch.o [1]
+  .bss               zero     0x200000a8    0x4c  UartService.o [1]
+  .bss               zero     0x200000f4    0x28  LCD_touch.o [1]
+  .bss               zero     0x2000011c    0x1e  APP_Uart.o [1]
+  .bss               zero     0x2000013a     0x2  APP_Uart.o [1]
+  .bss               zero     0x2000013c    0x14  LCD_Core.o [1]
+  .bss               zero     0x20000150     0xc  LCD_lcdinit.o [1]
+  .bss               zero     0x2000015c     0x8  InitSys.o [1]
+  .bss               zero     0x20000164     0x4  Common.o [1]
+  .bss               zero     0x20000168     0x4  SysCheck.o [1]
+  .bss               zero     0x2000016c     0x2  Common.o [1]
+  .bss               zero     0x2000016e     0x2  spi.o [1]
+  .bss               zero     0x20000170     0x1  APP_Main.o [1]
+  .bss               zero     0x20000171     0x1  Common.o [1]
+  .bss               zero     0x20000172     0x1  Common.o [1]
+  .bss               zero     0x20000173     0x1  Common.o [1]
+  .bss               zero     0x20000174     0x1  Common.o [1]
+  .bss               zero     0x20000175     0x1  Common.o [1]
+  .bss               zero     0x20000176     0x1  Common.o [1]
+  .bss               zero     0x20000177     0x1  Common.o [1]
+  .bss               zero     0x20000178     0x1  Common.o [1]
+  .bss               zero     0x20000179     0x1  Common.o [1]
+  .bss               zero     0x2000017a     0x1  Common.o [1]
+  .bss               zero     0x2000017b     0x1  HAL_Mcu.o [1]
+  CSTACK                      0x20000180   0x400  <Block>
+    CSTACK           uninit   0x20000180   0x400  <Block tail>
+                            - 0x20000580   0x580
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xd4:
+          0x200000a8  0xd4
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0xa8 (101% of destination):
+          0x08006110  0xa8
+    1 destination range, total size 0xa6:
+          0x20000000  0xa6
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj: [1]
+    APP_Core.o               260
+    APP_Main.o               104                 1
+    APP_Uart.o               500                32
+    Cap.o                    112
+    Common.o                                    16
+    HAL_Mcu.o                198                 1
+    InitSys.o                352                 8
+    LCD_Core.o             3 952      120      140
+    LCD_flash.o               44
+    LCD_lcdinit.o         11 364    3 432       20
+    LCD_touch.o              652        2       42
+    MyMisc.o                 120
+    SysCheck.o               104                 4
+    Uart.o                   164
+    UartService.o             40                76
+    spi.o                    398                 2
+    startup_stm32f0xx.o      262
+    stm32f0xx_dma.o          180
+    stm32f0xx_exti.o         132
+    stm32f0xx_flash.o        264
+    stm32f0xx_gpio.o         162
+    stm32f0xx_iwdg.o          56
+    stm32f0xx_misc.o          84
+    stm32f0xx_rcc.o          336       16       16
+    stm32f0xx_spi.o          170
+    stm32f0xx_syscfg.o        44
+    stm32f0xx_tim.o          326
+    stm32f0xx_usart.o        242
+    system_stm32f0xx.o       236       20       20
+    watchDog.o                40
+    ----------------------------------------------
+    Total:                20 898    3 590      378
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    exit.o                     8
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    12
+
+rt6M_tl.a: [4]
+    ABImemset.o               52
+    I32DivModFast.o          224
+    IntDivZer.o                2
+    cexit.o                   10
+    cmain.o                   26
+    copy_init3.o              48
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              42
+    ----------------------------------------------
+    Total:                   456
+
+shb_l.a: [5]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Linker created                     40    1 024
+--------------------------------------------------
+    Grand Total:          21 386    3 630    1 402
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address    Size  Type      Object
+-----                      -------    ----  ----      ------
+?main                   0x08006085          Code  Gb  cmain.o [4]
+A                       0x20000068     0x4  Data  Gb  LCD_Core.o [1]
+AHBPrescTable           0x20000078    0x10  Data  Gb  system_stm32f0xx.o [1]
+APBAHBPrescTable        0x2000008c    0x10  Data  Lc  stm32f0xx_rcc.o [1]
+B                       0x2000006c     0x4  Data  Gb  LCD_Core.o [1]
+BACK_COLOR              0x200000a2     0x2  Data  Gb  LCD_lcdinit.o [1]
+BoardAddr               0x2000016c     0x2  Data  Gb  Common.o [1]
+Board_InOutSide_Flag    0x20000172     0x1  Data  Gb  Common.o [1]
+CMD_RDX                 0x200000a4     0x1  Data  Gb  LCD_touch.o [1]
+CMD_RDY                 0x200000a5     0x1  Data  Gb  LCD_touch.o [1]
+CSTACK$$Base            0x20000180           --   Gb  - Linker created -
+CSTACK$$Limit           0x20000580           --   Gb  - Linker created -
+CalculateChekSum        0x08002df1    0x34  Code  Gb  MyMisc.o [1]
+DMA_Cmd                 0x0800339d    0x14  Code  Gb  stm32f0xx_dma.o [1]
+DMA_DeInit              0x0800330d    0x5a  Code  Gb  stm32f0xx_dma.o [1]
+DMA_Init                0x08003367    0x36  Code  Gb  stm32f0xx_dma.o [1]
+Delay_ms                0x08002e37    0x26  Code  Gb  MyMisc.o [1]
+Delay_us                0x08002e25    0x12  Code  Gb  MyMisc.o [1]
+DirectionInit           0x080057b1    0x1e  Code  Gb  APP_Uart.o [1]
+EXTI4_15_IRQHandler     0x08005f55    0x22  Code  Gb  HAL_Mcu.o [1]
+EXTI_ClearFlag          0x08005b1b     0x6  Code  Gb  stm32f0xx_exti.o [1]
+EXTI_GetFlagStatus      0x08005b0b    0x10  Code  Gb  stm32f0xx_exti.o [1]
+EXTI_Init               0x08005aa5    0x66  Code  Gb  stm32f0xx_exti.o [1]
+Export                  0x20000171     0x1  Data  Gb  Common.o [1]
+ExportH                 0x2000017a     0x1  Data  Gb  Common.o [1]
+ExportL                 0x20000179     0x1  Data  Gb  Common.o [1]
+FLASH_ClearFlag         0x08004915     0x6  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_ErasePage         0x0800487f    0x36  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_GetStatus         0x0800491d    0x28  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_Lock              0x08004873     0xc  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_ProgramWord       0x080048b5    0x4e  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_Unlock            0x08004861    0x12  Code  Gb  stm32f0xx_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x08004949    0x20  Code  Gb  stm32f0xx_flash.o [1]
+GPIO_Init               0x08002d25    0x6a  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_InitStructure      0x2000015c     0x8  Data  Gb  InitSys.o [1]
+GPIO_PinAFConfig        0x08002da7    0x20  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_ReadInputDataBit   0x08002d8f     0x8  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_ResetBits          0x08002da3     0x4  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_SetBits            0x08002d9f     0x4  Code  Gb  stm32f0xx_gpio.o [1]
+HardFault_Handler       0x08005eb3     0x2  Code  Gb  HAL_Mcu.o [1]
+IWDG_Enable             0x080030f3     0x8  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_ReloadCounter      0x080030eb     0x8  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_SetPrescaler       0x080030df     0x6  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_SetReload          0x080030e5     0x6  Code  Gb  stm32f0xx_iwdg.o [1]
+IWDG_WriteAccessCmd     0x080030d9     0x6  Code  Gb  stm32f0xx_iwdg.o [1]
+InitSys                 0x08005a13    0x56  Code  Gb  InitSys.o [1]
+InputPhotoElec_Flag     0x20000177     0x1  Data  Gb  Common.o [1]
+InputPhotoElec_ONCnt    0x20000176     0x1  Data  Gb  Common.o [1]
+InputScanCnt            0x20000178     0x1  Data  Gb  Common.o [1]
+InputScan_Flag          0x20000174     0x1  Data  Gb  Common.o [1]
+Input_PhotoElec         0x20000175     0x1  Data  Gb  Common.o [1]
+Input_Scan              0x08005cf9    0xa2  Code  Gb  APP_Core.o [1]
+LCD_Clear               0x080003d9    0x20  Code  Gb  LCD_lcdinit.o [1]
+LCD_DrawLine            0x08000445    0xa6  Code  Gb  LCD_lcdinit.o [1]
+LCD_DrawPoint           0x080003bf    0x14  Code  Gb  LCD_lcdinit.o [1]
+LCD_DrawRectangle       0x080004eb    0x36  Code  Gb  LCD_lcdinit.o [1]
+LCD_Fill                0x080003f9    0x42  Code  Gb  LCD_lcdinit.o [1]
+LCD_SetCursor           0x08000391    0x2e  Code  Gb  LCD_lcdinit.o [1]
+LCD_WR_DATA             0x0800031f    0x38  Code  Gb  LCD_lcdinit.o [1]
+LCD_WR_DATA8            0x08000357    0x1e  Code  Gb  LCD_lcdinit.o [1]
+LCD_WR_REG              0x080002ff    0x20  Code  Gb  LCD_lcdinit.o [1]
+LCD_WriteRAM_Prepare    0x08000385     0xc  Code  Gb  LCD_lcdinit.o [1]
+NMI_Handler             0x08005eb1     0x2  Code  Gb  HAL_Mcu.o [1]
+NVIC_Init               0x0800480d    0x46  Code  Gb  stm32f0xx_misc.o [1]
+PC_Check_Flag           0x20000173     0x1  Data  Gb  Common.o [1]
+POINT_COLOR             0x200000a0     0x2  Data  Gb  LCD_lcdinit.o [1]
+PendSV_Handler          0x08005eb5     0x2  Code  Gb  HAL_Mcu.o [1]
+PhotoElecCheck          0x08005cd5    0x24  Code  Gb  APP_Core.o [1]
+RCC_AHBPeriphClockCmd   0x080031d3    0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x080031fb    0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB1PeriphResetCmd  0x08003223    0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x080031e7    0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphResetCmd  0x0800320f    0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_GetClocksFreq       0x08003111    0xc2  Code  Gb  stm32f0xx_rcc.o [1]
+Region$$Table$$Base     0x08006060           --   Gb  - Linker created -
+Region$$Table$$Limit    0x08006084           --   Gb  - Linker created -
+SPI1_DMA_Configuration  0x08002f19    0x88  Code  Gb  spi.o [1]
+SPI1_RX_Buff            0x2000016f     0x1  Data  Gb  spi.o [1]
+SPI1_TX_Buff            0x2000016e     0x1  Data  Gb  spi.o [1]
+SPI_Cmd                 0x080032a9    0x14  Code  Gb  stm32f0xx_spi.o [1]
+SPI_I2S_DMACmd          0x080032e1     0xe  Code  Gb  stm32f0xx_spi.o [1]
+SPI_I2S_GetFlagStatus   0x080032fd     0xe  Code  Gb  stm32f0xx_spi.o [1]
+SPI_Init                0x08003261    0x48  Code  Gb  stm32f0xx_spi.o [1]
+SPI_ReceiveData8        0x080032c7     0x4  Code  Gb  stm32f0xx_spi.o [1]
+SPI_RxFIFOThresholdConfig
+                        0x080032bd     0x6  Code  Gb  stm32f0xx_spi.o [1]
+SPI_SendData8           0x080032c3     0x4  Code  Gb  stm32f0xx_spi.o [1]
+SPI_WriteByte           0x08002fb9    0x3e  Code  Gb  spi.o [1]
+SYSCFG_EXTILineConfig   0x08005a79    0x26  Code  Gb  stm32f0xx_syscfg.o [1]
+SysSelfcheck            0x08004335    0x68  Code  Gb  SysCheck.o [1]
+SysTick_Handler         0x08005ef3     0xc  Code  Gb  HAL_Mcu.o [1]
+SystemCoreClock         0x20000088     0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit              0x08005dc5    0xce  Code  Gb  system_stm32f0xx.o [1]
+TIM2_IRQHandler         0x08005eb7    0x3c  Code  Gb  HAL_Mcu.o [1]
+TIM_Cmd                 0x0800452f    0x14  Code  Gb  stm32f0xx_tim.o [1]
+TIM_DeInit              0x08004439    0x98  Code  Gb  stm32f0xx_tim.o [1]
+TIM_ITConfig            0x0800456d    0x12  Code  Gb  stm32f0xx_tim.o [1]
+TIM_PrescalerConfig     0x08004529     0x6  Code  Gb  stm32f0xx_tim.o [1]
+TIM_TimeBaseInit        0x080044d1    0x58  Code  Gb  stm32f0xx_tim.o [1]
+TP_Read_AD              0x080045b9    0x82  Code  Gb  LCD_touch.o [1]
+TP_Read_XOY             0x0800463b    0x36  Code  Gb  LCD_touch.o [1]
+TP_Read_XY              0x08004671    0x1e  Code  Gb  LCD_touch.o [1]
+TP_Read_XY2             0x0800468f    0x80  Code  Gb  LCD_touch.o [1]
+TP_Scan                 0x0800470f    0xca  Code  Gb  LCD_touch.o [1]
+TP_Write_Byte           0x08004581    0x38  Code  Gb  LCD_touch.o [1]
+USART2_IRQHandler       0x08005eff    0x2c  Code  Gb  HAL_Mcu.o [1]
+USART_Cmd               0x08005c69    0x16  Code  Gb  stm32f0xx_usart.o [1]
+USART_ITConfig          0x08005c95    0x2a  Code  Gb  stm32f0xx_usart.o [1]
+USART_Init              0x08005bcd    0x9c  Code  Gb  stm32f0xx_usart.o [1]
+UartFromPC              0x080056c9    0xe8  Code  Gb  APP_Uart.o [1]
+UartReadDada            0x08005871    0x16  Code  Gb  APP_Uart.o [1]
+UartSend                0x080058f1    0x28  Code  Gb  UartService.o [1]
+UartSendData            0x08005829    0x48  Code  Gb  APP_Uart.o [1]
+UartTimeout             0x08005887    0x1a  Code  Gb  APP_Uart.o [1]
+X_0                     0x20000070     0x4  Data  Gb  LCD_Core.o [1]
+Y_0                     0x20000074     0x4  Data  Gb  LCD_Core.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20001fff           --   Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000           --   Gb  command line/config [2]
+__aeabi_idiv            0x08003023          Code  Gb  I32DivModFast.o [4]
+__aeabi_idiv0           0x080033c1          Code  Gb  IntDivZer.o [4]
+__aeabi_idivmod         0x08003023          Code  Gb  I32DivModFast.o [4]
+__aeabi_memclr4         0x080058ed          Code  Gb  ABImemset.o [4]
+__aeabi_memclr8         0x080058ed          Code  Gb  ABImemset.o [4]
+__aeabi_uidiv           0x08003029          Code  Gb  I32DivModFast.o [4]
+__aeabi_uidivmod        0x08003029          Code  Gb  I32DivModFast.o [4]
+__as_entries_start      0xffffffff           --   Gb  command line/config [2]
+__as_table_start        0xffffffff           --   Gb  command line/config [2]
+__cmain                 0x08006085          Code  Gb  cmain.o [4]
+__exit                  0x080060b9    0x14  Code  Gb  exit.o [5]
+__iar_Memset4_word      0x080058bd          Code  Gb  ABImemset.o [4]
+__iar_copy_init3        0x08006009    0x30  Code  Gb  copy_init3.o [4]
+__iar_data_init3        0x08006039    0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x080060dd          Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x08002dc7    0x2a  Code  Gb  zero_init3.o [4]
+__low_level_init        0x0800609f     0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000          Data  Gb  startup_stm32f0xx.o [1]
+_call_main              0x08006091          Code  Gb  cmain.o [4]
+_exit                   0x080060ad          Code  Gb  cexit.o [4]
+_main                   0x0800609b          Code  Gb  cmain.o [4]
+adjust1_judge           0x08003841    0xa4  Code  Gb  LCD_Core.o [1]
+adjust2_judge           0x080038f1    0xa4  Code  Gb  LCD_Core.o [1]
+adjust3_judge           0x08003999    0xa4  Code  Gb  LCD_Core.o [1]
+adjust4_judge           0x08003a45    0xfc  Code  Gb  LCD_Core.o [1]
+adjust_xy               0x20000004    0x20  Data  Gb  LCD_Core.o [1]
+asc_string              0x2000009c     0x4  Data  Gb  LCD_lcdinit.o [1]
+b                       0x20000144     0x4  Data  Gb  LCD_Core.o [1]
+boardaddr               0x2000003c     0x4  Data  Gb  LCD_Core.o [1]
+cha32_16                0x08001520  0x17c0  Data  Gb  LCD_lcdinit.o [1]
+close_exitPB11          0x080042c5     0xe  Code  Gb  LCD_Core.o [1]
+common_gpio             0x08005919    0x36  Code  Gb  InitSys.o [1]
+data                    0x20000168     0x4  Data  Gb  SysCheck.o [1]
+datarefresh             0x08003de9    0x20  Code  Gb  LCD_Core.o [1]
+decade                  0x20000030     0x4  Data  Gb  LCD_Core.o [1]
+enWatchdog              0x08005fe1    0x28  Code  Gb  watchDog.o [1]
+en_allrefresh           0x20000170     0x1  Data  Gb  APP_Main.o [1]
+exit                    0x080060a3     0x8  Code  Gb  exit.o [3]
+flashdata               0x20000040     0x4  Data  Gb  LCD_Core.o [1]
+flashwrite_addr400      0x0800439d    0x2c  Code  Gb  LCD_flash.o [1]
+g                       0x2000014c     0x4  Data  Gb  LCD_Core.o [1]
+gSysFlg0                0x20000164     0x4  Data  Gb  Common.o [1]
+gUart2                  0x200000a8    0x4c  Data  Gb  UartService.o [1]
+gUartToPC               0x2000011c     0xc  Data  Gb  APP_Uart.o [1]
+gUartr2RxCnt            0x2000013a     0x2  Data  Gb  APP_Uart.o [1]
+hanzi16                 0x08000570    0xc0  Data  Gb  LCD_lcdinit.o [1]
+hanzi32                 0x080049c8   0xd00  Data  Gb  LCD_lcdinit.o [1]
+hanzi64                 0x080006d0   0xe00  Data  Gb  LCD_lcdinit.o [1]
+hundred                 0x2000002c     0x4  Data  Gb  LCD_Core.o [1]
+initGpio                0x080059af    0x64  Code  Gb  InitSys.o [1]
+initLcd                 0x080000c1   0x23e  Code  Gb  LCD_lcdinit.o [1]
+initSpi1                0x08002e69    0xb0  Code  Gb  spi.o [1]
+initTimer               0x080043c9    0x70  Code  Gb  Cap.o [1]
+initUart                0x08005b29    0xa4  Code  Gb  Uart.o [1]
+init_sc                 0x08003b5d   0x276  Code  Gb  LCD_Core.o [1]
+judge_initsc            0x08003741    0x54  Code  Gb  LCD_Core.o [1]
+judge_screen1           0x080035db    0xd8  Code  Gb  LCD_Core.o [1]
+judge_screen2           0x080036bd    0x7c  Code  Gb  LCD_Core.o [1]
+kilobit                 0x20000028     0x4  Data  Gb  LCD_Core.o [1]
+lcd_gpio                0x0800594f    0x2a  Code  Gb  InitSys.o [1]
+lcddev                  0x20000150     0xc  Data  Gb  LCD_lcdinit.o [1]
+main                    0x08005f79    0x68  Code  Gb  APP_Main.o [1]
+numble_HL               0x20000134     0x2  Data  Gb  APP_Uart.o [1]
+onumble_HL              0x20000138     0x2  Data  Gb  APP_Uart.o [1]
+ostateL                 0x2000012d     0x1  Data  Gb  APP_Uart.o [1]
+oweight_HL              0x20000136     0x2  Data  Gb  APP_Uart.o [1]
+q                       0x20000140     0x4  Data  Gb  LCD_Core.o [1]
+s                       0x20000148     0x4  Data  Gb  LCD_Core.o [1]
+sc_adjust1              0x08003795    0x22  Code  Gb  LCD_Core.o [1]
+sc_adjust2              0x080037bd    0x26  Code  Gb  LCD_Core.o [1]
+sc_adjust3              0x080037eb    0x2c  Code  Gb  LCD_Core.o [1]
+sc_adjust4              0x08003817    0x26  Code  Gb  LCD_Core.o [1]
+sc_lock                 0x080041eb    0x3a  Code  Gb  LCD_Core.o [1]
+sc_nomal                0x08004275    0x3a  Code  Gb  LCD_Core.o [1]
+sc_numble               0x08003fc5   0x226  Code  Gb  LCD_Core.o [1]
+sc_print                0x08004225    0x36  Code  Gb  LCD_Core.o [1]
+sc_weight               0x08003e09   0x1a8  Code  Gb  LCD_Core.o [1]
+screen_flag             0x20000038     0x4  Data  Gb  LCD_Core.o [1]
+scshowonce              0x20000044     0x4  Data  Gb  LCD_Core.o [1]
+setflag                 0x20000000     0x1  Data  Gb  LCD_Core.o [1]
+setshow                 0x080042dd    0x46  Code  Gb  LCD_Core.o [1]
+show32_16               0x080014d1    0x4c  Code  Gb  LCD_lcdinit.o [1]
+show32string            0x08002ce1    0x40  Code  Gb  LCD_lcdinit.o [1]
+show_setboardaddr       0x080033c5   0x122  Code  Gb  LCD_Core.o [1]
+show_setdirection       0x080034e7    0xf4  Code  Gb  LCD_Core.o [1]
+showhanzi16             0x08000521    0x4c  Code  Gb  LCD_lcdinit.o [1]
+showhanzi32             0x08000631    0x4c  Code  Gb  LCD_lcdinit.o [1]
+showhanzi64             0x0800067d    0x4c  Code  Gb  LCD_lcdinit.o [1]
+state                   0x20000024     0x4  Data  Gb  LCD_Core.o [1]
+stateL                  0x2000012c     0x1  Data  Gb  APP_Uart.o [1]
+status_numbleH          0x2000012b     0x1  Data  Gb  APP_Uart.o [1]
+status_numbleL          0x20000129     0x1  Data  Gb  APP_Uart.o [1]
+status_state            0x20000130     0x2  Data  Gb  APP_Uart.o [1]
+status_weightH          0x2000012a     0x1  Data  Gb  APP_Uart.o [1]
+status_weightL          0x20000128     0x1  Data  Gb  APP_Uart.o [1]
+taskSchdule             0x08005cc1    0x14  Code  Gb  APP_Core.o [1]
+test_flag               0x2000017b     0x1  Data  Gb  HAL_Mcu.o [1]
+touch_gpio              0x08005979    0x24  Code  Gb  InitSys.o [1]
+tp_dev                  0x200000f4    0x28  Data  Gb  LCD_touch.o [1]
+uartToPC                0x080057d1    0x58  Code  Gb  APP_Uart.o [1]
+unit                    0x20000034     0x4  Data  Gb  LCD_Core.o [1]
+w                       0x2000013c     0x4  Data  Gb  LCD_Core.o [1]
+weight_HL               0x20000132     0x2  Data  Gb  APP_Uart.o [1]
+x1                      0x20000048     0x4  Data  Gb  LCD_Core.o [1]
+x2                      0x2000004c     0x4  Data  Gb  LCD_Core.o [1]
+x3                      0x20000050     0x4  Data  Gb  LCD_Core.o [1]
+x4                      0x20000054     0x4  Data  Gb  LCD_Core.o [1]
+y1                      0x20000058     0x4  Data  Gb  LCD_Core.o [1]
+y2                      0x2000005c     0x4  Data  Gb  LCD_Core.o [1]
+y3                      0x20000060     0x4  Data  Gb  LCD_Core.o [1]
+y4                      0x20000064     0x4  Data  Gb  LCD_Core.o [1]
+
+
+[1] = D:\项目\八达通\STM32F0xx_StdPeriph_Lib_V1.0.0_0428\Project\EXIT_LCD_V1.1\EWARM\STM320518-EVAL\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = rt6M_tl.a
+[5] = shb_l.a
+
+  21 386 bytes of readonly  code memory
+   3 630 bytes of readonly  data memory
+   1 402 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
